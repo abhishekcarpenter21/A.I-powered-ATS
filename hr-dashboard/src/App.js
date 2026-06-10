@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API = process.env.REACT_APP_API_URL;
-
+const API = "https://a-i-powered-ats.onrender.com";
 // ── SMT Labs Brand Colors ──────────────────────────────────────────────────
 const smt = {
   black:      "#0A0A0A",
