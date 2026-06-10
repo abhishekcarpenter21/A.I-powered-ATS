@@ -101,7 +101,7 @@ const g = {
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 function Toast({ message, type, onClose }) {
-  useEffect(() => { const t = setTimeout(onClose, 4000); return () => clearTimeout(t); }, []);
+  useEffect(() => { const t = setTimeout(onClose, 4000); return () => clearTimeout(t); }, [onClose]);
   const map = {
     success:{ icon:"✓", border:"rgba(34,197,94,0.5)",   color:smt.green },
     error:  { icon:"✕", border:"rgba(244,63,94,0.5)",   color:smt.red },
