@@ -1,10 +1,6 @@
 import { useState, useEffect } from "react";
 
-
-const API_URL = process.env.REACT_APP_API_URL;
-axios.post(`${API_URL}/login`, data)
-axios.get(`${API_URL}/candidates`)
-fetch(`${API_URL}/candidates`)
+const API = "http://localhost:8000";
 
 // ── SMT Labs Brand Colors ──────────────────────────────────────────────────
 const smt = {
