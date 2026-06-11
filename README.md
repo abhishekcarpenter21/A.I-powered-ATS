@@ -208,9 +208,8 @@ GET /dashboard/dashboard
 
 Abhishek Carpenter
 
-MCA Student | Python Full Stack Developer
+Python Full Stack Developer
 
-Aspiring AI Engineer
 
 ---
 
